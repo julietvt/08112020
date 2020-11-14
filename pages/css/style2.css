@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+}
+
+.divStyle {
+  border: 5px solid red;
+  width: 200px;
+  height: 50px;
+}
+
+#id1 {
+  display: none;
+}
+
+li {
+  display: block;
+  list-style: none;
+  border: 5px solid red;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  color: blue;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+body {
+  display: inline-block;
+}
+
+header {
+  height: 120px;
+  background-color: aquamarine;
+}
+
+footer {
+  height: 120px;
+  background-color: blue;
+}
+
+nav > ul {
+}
+
+nav > ul > li {
+  display: inline-block;
+  border: 1px solid blue;
+  padding: 10px;
+}
